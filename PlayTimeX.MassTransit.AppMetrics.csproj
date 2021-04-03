@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+      <Description>Metrics collector for MassTransit consumers, using the AppMetrics library</Description>
+      <Version>1.0.0</Version>
+      <TargetFramework>netstandard2.0</TargetFramework>
+      <Authors>Playtime Solutions;Peter St Clair</Authors>
+      <PackageId>PlayTimeX.MassTransit.AppMetrics</PackageId>
+      <PackageTags>.NET CORE;Message Broker;Metrics</PackageTags>
+      <Company>Playtime Solutions</Company>
+      <Copyright>Playtime Solutions</Copyright>
+      <LangVersion>latest</LangVersion>
+    </PropertyGroup>
+
+    <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+      <DocumentationFile>PlayTimeX.MassTransit.AppMetrics.xml</DocumentationFile>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="App.Metrics.Core" Version="4.1.0" />
+      <PackageReference Include="MassTransit" Version="7.1.6" />
+      <PackageReference Include="Microsoft.Extensions.Options" Version="2.0.0" />
+    </ItemGroup>
+
+</Project>

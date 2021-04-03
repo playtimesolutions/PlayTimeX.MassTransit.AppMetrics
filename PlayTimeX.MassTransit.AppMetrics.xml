@@ -1,0 +1,1364 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>PlayTimeX.MassTransit.AppMetrics</name>
+    </assembly>
+    <members>
+        <member name="T:PlayTimeX.MassTransit.AppMetrics.Configuration.AppMetricsCompensateActivitySpecification`2">
+            <summary>
+            
+            </summary>
+            <typeparam name="TActivity"></typeparam>
+            <typeparam name="TLog"></typeparam>
+        </member>
+        <member name="M:PlayTimeX.MassTransit.AppMetrics.Configuration.AppMetricsCompensateActivitySpecification`2.#ctor(App.Metrics.IMetrics)">
+            <summary>
+            
+            </summary>
+            <param name="metrics"></param>
+        </member>
+        <member name="M:PlayTimeX.MassTransit.AppMetrics.Configuration.AppMetricsCompensateActivitySpecification`2.Apply(GreenPipes.IPipeBuilder{MassTransit.Courier.CompensateActivityContext{`0,`1}})">
+            <summary>
+            
+            </summary>
+            <param name="builder"></param>
+        </member>
+        <member name="M:PlayTimeX.MassTransit.AppMetrics.Configuration.AppMetricsCompensateActivitySpecification`2.Validate">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:PlayTimeX.MassTransit.AppMetrics.Configuration.AppMetricsConsumerSpecification`2">
+            <summary>
+            
+            </summary>
+            <typeparam name="TConsumer"></typeparam>
+            <typeparam name="TMessage"></typeparam>
+        </member>
+        <member name="M:PlayTimeX.MassTransit.AppMetrics.Configuration.AppMetricsConsumerSpecification`2.#ctor(App.Metrics.IMetrics)">
+            <summary>
+            
+            </summary>
+            <param name="metrics"></param>
+        </member>
+        <member name="M:PlayTimeX.MassTransit.AppMetrics.Configuration.AppMetricsConsumerSpecification`2.Apply(GreenPipes.IPipeBuilder{MassTransit.ConsumerConsumeContext{`0,`1}})">
+            <summary>
+            
+            </summary>
+            <param name="builder"></param>
+        </member>
+        <member name="M:PlayTimeX.MassTransit.AppMetrics.Configuration.AppMetricsConsumerSpecification`2.Validate">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:PlayTimeX.MassTransit.AppMetrics.Configuration.AppMetricsExecuteActivitySpecification`2">
+            <summary>
+            
+            </summary>
+            <typeparam name="TActivity"></typeparam>
+            <typeparam name="TArguments"></typeparam>
+        </member>
+        <member name="M:PlayTimeX.MassTransit.AppMetrics.Configuration.AppMetricsExecuteActivitySpecification`2.#ctor(App.Metrics.IMetrics)">
+            <summary>
+            
+            </summary>
+            <param name="metrics"></param>
+        </member>
+        <member name="M:PlayTimeX.MassTransit.AppMetrics.Configuration.AppMetricsExecuteActivitySpecification`2.Apply(GreenPipes.IPipeBuilder{MassTransit.Courier.ExecuteActivityContext{`0,`1}})">
+            <summary>
+            
+            </summary>
+            <param name="builder"></param>
+        </member>
+        <member name="M:PlayTimeX.MassTransit.AppMetrics.Configuration.AppMetricsExecuteActivitySpecification`2.Validate">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:PlayTimeX.MassTransit.AppMetrics.Configuration.AppMetricsHandlerSpecification`1">
+            <summary>
+            
+            </summary>
+            <typeparam name="TMessage"></typeparam>
+        </member>
+        <member name="M:PlayTimeX.MassTransit.AppMetrics.Configuration.AppMetricsHandlerSpecification`1.#ctor(App.Metrics.IMetrics)">
+            <summary>
+            
+            </summary>
+            <param name="metrics"></param>
+        </member>
+        <member name="M:PlayTimeX.MassTransit.AppMetrics.Configuration.AppMetricsHandlerSpecification`1.Apply(GreenPipes.IPipeBuilder{MassTransit.ConsumeContext{`0}})">
+            <summary>
+            
+            </summary>
+            <param name="builder"></param>
+        </member>
+        <member name="M:PlayTimeX.MassTransit.AppMetrics.Configuration.AppMetricsHandlerSpecification`1.Validate">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:PlayTimeX.MassTransit.AppMetrics.Configuration.AppMetricsReceiveSpecification">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:PlayTimeX.MassTransit.AppMetrics.Configuration.AppMetricsReceiveSpecification.#ctor(App.Metrics.IMetrics)">
+            <summary>
+            
+            </summary>
+            <param name="metrics"></param>
+        </member>
+        <member name="M:PlayTimeX.MassTransit.AppMetrics.Configuration.AppMetricsReceiveSpecification.Apply(GreenPipes.IPipeBuilder{MassTransit.ReceiveContext})">
+            <summary>
+            
+            </summary>
+            <param name="builder"></param>
+        </member>
+        <member name="M:PlayTimeX.MassTransit.AppMetrics.Configuration.AppMetricsReceiveSpecification.Validate">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:PlayTimeX.MassTransit.AppMetrics.Configuration.AppMetricsSagaSpecification`2">
+            <summary>
+            
+            </summary>
+            <typeparam name="TSaga"></typeparam>
+            <typeparam name="TMessage"></typeparam>
+        </member>
+        <member name="M:PlayTimeX.MassTransit.AppMetrics.Configuration.AppMetricsSagaSpecification`2.#ctor(App.Metrics.IMetrics)">
+            <summary>
+            
+            </summary>
+            <param name="metrics"></param>
+        </member>
+        <member name="M:PlayTimeX.MassTransit.AppMetrics.Configuration.AppMetricsSagaSpecification`2.Apply(GreenPipes.IPipeBuilder{MassTransit.SagaConsumeContext{`0,`1}})">
+            <summary>
+            
+            </summary>
+            <param name="builder"></param>
+        </member>
+        <member name="M:PlayTimeX.MassTransit.AppMetrics.Configuration.AppMetricsSagaSpecification`2.Validate">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:PlayTimeX.MassTransit.AppMetrics.Configuration.MassTransitMetricLabelConfiguration">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:PlayTimeX.MassTransit.AppMetrics.Configuration.MassTransitMetricLabelConfiguration.#ctor">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:PlayTimeX.MassTransit.AppMetrics.Configuration.MassTransitMetricLabelConfiguration.Endpoint">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:PlayTimeX.MassTransit.AppMetrics.Configuration.MassTransitMetricLabelConfiguration.ConsumerType">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:PlayTimeX.MassTransit.AppMetrics.Configuration.MassTransitMetricLabelConfiguration.ExceptionType">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:PlayTimeX.MassTransit.AppMetrics.Configuration.MassTransitMetricLabelConfiguration.MessageType">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:PlayTimeX.MassTransit.AppMetrics.Configuration.MassTransitMetricLabelConfiguration.ActivityName">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:PlayTimeX.MassTransit.AppMetrics.Configuration.MassTransitMetricLabelConfiguration.ArgumentType">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:PlayTimeX.MassTransit.AppMetrics.Configuration.MassTransitMetricLabelConfiguration.LogType">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:PlayTimeX.MassTransit.AppMetrics.Configuration.MassTransitMetricLabelConfiguration.ServiceName">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:PlayTimeX.MassTransit.AppMetrics.Configuration.MassTransitMetricLabelConfiguration.MessagesReceived">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:PlayTimeX.MassTransit.AppMetrics.Configuration.MassTransitMetricLabelConfiguration.MessageFaultsReceived">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:PlayTimeX.MassTransit.AppMetrics.Configuration.MassTransitMetricLabelConfiguration.ReceiveDuration">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:PlayTimeX.MassTransit.AppMetrics.Configuration.MassTransitMetricLabelConfiguration.ReceiveInProgress">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:PlayTimeX.MassTransit.AppMetrics.Configuration.MassTransitMetricLabelConfiguration.MessagesConsumed">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:PlayTimeX.MassTransit.AppMetrics.Configuration.MassTransitMetricLabelConfiguration.MessageFaultsConsumed">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:PlayTimeX.MassTransit.AppMetrics.Configuration.MassTransitMetricLabelConfiguration.ConsumeRetryTotal">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:PlayTimeX.MassTransit.AppMetrics.Configuration.MassTransitMetricLabelConfiguration.MessagesPublished">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:PlayTimeX.MassTransit.AppMetrics.Configuration.MassTransitMetricLabelConfiguration.MessagePublishFailure">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:PlayTimeX.MassTransit.AppMetrics.Configuration.MassTransitMetricLabelConfiguration.MessagesSent">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:PlayTimeX.MassTransit.AppMetrics.Configuration.MassTransitMetricLabelConfiguration.MessageSendFailure">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:PlayTimeX.MassTransit.AppMetrics.Configuration.MassTransitMetricLabelConfiguration.ActivityExecuted">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:PlayTimeX.MassTransit.AppMetrics.Configuration.MassTransitMetricLabelConfiguration.ActivityExecutionFailure">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:PlayTimeX.MassTransit.AppMetrics.Configuration.MassTransitMetricLabelConfiguration.ActivityExecutionDuration">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:PlayTimeX.MassTransit.AppMetrics.Configuration.MassTransitMetricLabelConfiguration.ActivityCompensated">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:PlayTimeX.MassTransit.AppMetrics.Configuration.MassTransitMetricLabelConfiguration.ActivityCompensationFailure">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:PlayTimeX.MassTransit.AppMetrics.Configuration.MassTransitMetricLabelConfiguration.ActivityCompensateDuration">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:PlayTimeX.MassTransit.AppMetrics.Configuration.MassTransitMetricLabelConfiguration.BusInstances">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:PlayTimeX.MassTransit.AppMetrics.Configuration.MassTransitMetricLabelConfiguration.EndpointInstances">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:PlayTimeX.MassTransit.AppMetrics.Configuration.MassTransitMetricLabelConfiguration.ConsumerInProgress">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:PlayTimeX.MassTransit.AppMetrics.Configuration.MassTransitMetricLabelConfiguration.HandlerInProgress">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:PlayTimeX.MassTransit.AppMetrics.Configuration.MassTransitMetricLabelConfiguration.SagaInProgress">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:PlayTimeX.MassTransit.AppMetrics.Configuration.MassTransitMetricLabelConfiguration.ExecuteInProgress">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:PlayTimeX.MassTransit.AppMetrics.Configuration.MassTransitMetricLabelConfiguration.CompensateInProgress">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:PlayTimeX.MassTransit.AppMetrics.Configuration.MassTransitMetricLabelConfiguration.ConsumeDuration">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:PlayTimeX.MassTransit.AppMetrics.Configuration.MassTransitMetricLabelConfiguration.DeliveryDuration">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:PlayTimeX.MassTransit.AppMetrics.DependencyInjection.AppMetricsConfigurationExtensions">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:PlayTimeX.MassTransit.AppMetrics.DependencyInjection.AppMetricsConfigurationExtensions.UseMassTransitAppMetrics(MassTransit.IBusFactoryConfigurator,App.Metrics.IMetrics,System.Action{PlayTimeX.MassTransit.AppMetrics.MassTransitMetricsOptions},System.String)">
+            <summary>
+            Configure the bus to capture metrics for publication using Prometheus.
+            </summary>
+            <param name="configurator"></param>
+            <param name="metrics"></param>
+            <param name="configureOptions"></param>
+            <param name="serviceName">
+            The service name for metrics reporting, defaults to the current process main module filename
+            </param>
+        </member>
+        <member name="T:PlayTimeX.MassTransit.AppMetrics.Internal.EnumHelper">
+            <summary>
+            A set of utilities that extends Enum functionality
+            </summary>
+        </member>
+        <member name="M:PlayTimeX.MassTransit.AppMetrics.Internal.EnumHelper.GetEnumeration``1(``0[])">
+            <summary>
+            Converts an enum into an enumerable Enum.
+            </summary>
+            <typeparam name="T">Any Enum type</typeparam>
+            <returns>An IEnumerable implementation of the enum</returns>
+        </member>
+        <member name="M:PlayTimeX.MassTransit.AppMetrics.Internal.EnumHelper.GetEnumeration``2(``0[])">
+            <summary>
+            Converts an enum into an enumerable Enum.
+            </summary>
+            <typeparam name="TInput">Any Enum type</typeparam>
+            <typeparam name="TOutput"></typeparam>
+            <returns>An IEnumerable implementation of the enum</returns>
+        </member>
+        <member name="M:PlayTimeX.MassTransit.AppMetrics.Internal.EnumHelper.CheckEnumConstraint``1">
+            <summary>
+            Makes sure the type is an enum
+            </summary>
+            <typeparam name="T"></typeparam>
+        </member>
+        <member name="M:PlayTimeX.MassTransit.AppMetrics.Internal.EnumHelper.CheckEnumConstraint(System.Type)">
+            <summary>
+            Makes sure the type is an enum
+            </summary>
+            <param name="type"></param>
+        </member>
+        <member name="M:PlayTimeX.MassTransit.AppMetrics.Internal.EnumHelper.ToEnumerable``1(System.Collections.IEnumerable)">
+            <summary>
+            Converts an <see cref="T:System.Collections.IEnumerable"/> object to a strongly typed <see cref="T:System.Collections.Generic.IEnumerable`1"/> object
+            </summary>
+            <typeparam name="T"></typeparam>
+            <param name="source"></param>
+            <returns></returns>
+        </member>
+        <member name="M:PlayTimeX.MassTransit.AppMetrics.Internal.EnumHelper.ChangeType(System.Object,System.Type)">
+            <summary>
+            
+            </summary>
+            <param name="value"></param>
+            <param name="conversionType"></param>
+            <returns></returns>
+        </member>
+        <member name="T:PlayTimeX.MassTransit.AppMetrics.Internal.Extensions">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:PlayTimeX.MassTransit.AppMetrics.Internal.Extensions.TrackInProgress(App.Metrics.Counter.ICounter)">
+            <summary>
+            Tracks the number of in-progress operations taking place.
+            
+            Calling this increments the gauge. Disposing of the returned instance decrements it again.
+            </summary>
+            <remarks>
+            It is safe to track the sum of multiple concurrent in-progress operations with the same gauge.
+            </remarks>
+        </member>
+        <member name="T:PlayTimeX.MassTransit.AppMetrics.Internal.MetricsFactory">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:PlayTimeX.MassTransit.AppMetrics.Internal.MetricsFactory.ContextName">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:PlayTimeX.MassTransit.AppMetrics.Internal.MetricsFactory.CreateCounter(System.String,System.String,App.Metrics.Unit)">
+            <summary>
+            
+            </summary>
+            <param name="name"></param>
+            <param name="help"></param>
+            <param name="measure"></param>
+            <returns></returns>
+        </member>
+        <member name="M:PlayTimeX.MassTransit.AppMetrics.Internal.MetricsFactory.CreateMeter(System.String,System.String,App.Metrics.Unit,App.Metrics.TimeUnit)">
+            <summary>
+            
+            </summary>
+            <param name="name"></param>
+            <param name="help"></param>
+            <param name="measure"></param>
+            <param name="rate"></param>
+            <returns></returns>
+        </member>
+        <member name="M:PlayTimeX.MassTransit.AppMetrics.Internal.MetricsFactory.CreateHistogram(System.String,System.String,App.Metrics.Unit)">
+            <summary>
+            
+            </summary>
+            <param name="name"></param>
+            <param name="help"></param>
+            <param name="measure"></param>
+            <returns></returns>
+        </member>
+        <member name="M:PlayTimeX.MassTransit.AppMetrics.Internal.MetricsFactory.CreateGauge(System.String,System.String,App.Metrics.Unit)">
+            <summary>
+            
+            </summary>
+            <param name="name"></param>
+            <param name="help"></param>
+            <param name="measure"></param>
+            <returns></returns>
+        </member>
+        <member name="T:PlayTimeX.MassTransit.AppMetrics.Internal.UriExtensions">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:PlayTimeX.MassTransit.AppMetrics.Internal.UriExtensions.GetExchangeName(System.Uri)">
+            <summary>
+            
+            </summary>
+            <param name="value"></param>
+            <returns></returns>
+        </member>
+        <member name="T:PlayTimeX.MassTransit.AppMetrics.MassTransitMetricsOptions">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:PlayTimeX.MassTransit.AppMetrics.MassTransitMetricsOptions.Labels">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:PlayTimeX.MassTransit.AppMetrics.MassTransitMetricsOptions.MonitorPublishEvents">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:PlayTimeX.MassTransit.AppMetrics.MassTransitMetricsOptions.MonitorConsumeEvents">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:PlayTimeX.MassTransit.AppMetrics.MassTransitMetricsOptions.MonitorSendEvents">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:PlayTimeX.MassTransit.AppMetrics.MassTransitMetricsOptions.MonitorReceiveEvents">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:PlayTimeX.MassTransit.AppMetrics.MassTransitMetricsOptions.MonitorRetryEvents">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:PlayTimeX.MassTransit.AppMetrics.MassTransitMetricsOptions.MonitorBusEvents">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:PlayTimeX.MassTransit.AppMetrics.MassTransitMetricsOptions.MonitorRoutingSlips">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:PlayTimeX.MassTransit.AppMetrics.MassTransitMetricsOptions.MonitorSagas">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:PlayTimeX.MassTransit.AppMetrics.MassTransitMetricsOptions.CreateDefault">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:PlayTimeX.MassTransit.AppMetrics.MassTransitMetricsRegistry">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:PlayTimeX.MassTransit.AppMetrics.MassTransitMetricsRegistry.TryConfigure(System.String,PlayTimeX.MassTransit.AppMetrics.MassTransitMetricsOptions)">
+            <summary>
+            
+            </summary>
+            <param name="serviceName"></param>
+            <param name="options"></param>
+        </member>
+        <member name="M:PlayTimeX.MassTransit.AppMetrics.MassTransitMetricsRegistry.BusStarted(App.Metrics.IMetrics)">
+            <summary>
+            
+            </summary>
+            <param name="metrics"></param>
+        </member>
+        <member name="M:PlayTimeX.MassTransit.AppMetrics.MassTransitMetricsRegistry.BusStopped(App.Metrics.IMetrics)">
+            <summary>
+            
+            </summary>
+            <param name="metrics"></param>
+        </member>
+        <member name="M:PlayTimeX.MassTransit.AppMetrics.MassTransitMetricsRegistry.EndpointReady(App.Metrics.IMetrics,MassTransit.ReceiveEndpointReady)">
+            <summary>
+            
+            </summary>
+            <param name="metrics"></param>
+            <param name="ready"></param>
+        </member>
+        <member name="M:PlayTimeX.MassTransit.AppMetrics.MassTransitMetricsRegistry.EndpointCompleted(App.Metrics.IMetrics,MassTransit.ReceiveEndpointCompleted)">
+            <summary>
+            
+            </summary>
+            <param name="metrics"></param>
+            <param name="completed"></param>
+        </member>
+        <member name="M:PlayTimeX.MassTransit.AppMetrics.MassTransitMetricsRegistry.MeasureReceived(App.Metrics.IMetrics,MassTransit.ReceiveContext,System.Exception)">
+            <summary>
+            
+            </summary>
+            <param name="metrics"></param>
+            <param name="context"></param>
+            <param name="exception"></param>
+        </member>
+        <member name="M:PlayTimeX.MassTransit.AppMetrics.MassTransitMetricsRegistry.MeasureConsume``1(App.Metrics.IMetrics,MassTransit.ConsumeContext{``0},System.TimeSpan,System.String,System.Exception)">
+            <summary>
+            
+            </summary>
+            <typeparam name="T"></typeparam>
+            <param name="metrics"></param>
+            <param name="context"></param>
+            <param name="duration"></param>
+            <param name="consumerType"></param>
+            <param name="exception"></param>
+        </member>
+        <member name="M:PlayTimeX.MassTransit.AppMetrics.MassTransitMetricsRegistry.MeasureExecute``2(App.Metrics.IMetrics,MassTransit.Courier.ExecuteActivityContext{``0,``1},System.Exception)">
+            <summary>
+            
+            </summary>
+            <typeparam name="TActivity"></typeparam>
+            <typeparam name="TArguments"></typeparam>
+            <param name="metrics"></param>
+            <param name="context"></param>
+            <param name="exception"></param>
+        </member>
+        <member name="M:PlayTimeX.MassTransit.AppMetrics.MassTransitMetricsRegistry.MeasureCompensate``2(App.Metrics.IMetrics,MassTransit.Courier.CompensateActivityContext{``0,``1},System.Exception)">
+            <summary>
+            
+            </summary>
+            <typeparam name="TActivity"></typeparam>
+            <typeparam name="TLog"></typeparam>
+            <param name="metrics"></param>
+            <param name="context"></param>
+            <param name="exception"></param>
+        </member>
+        <member name="M:PlayTimeX.MassTransit.AppMetrics.MassTransitMetricsRegistry.MeasurePublish``1(App.Metrics.IMetrics,System.Exception)">
+            <summary>
+            
+            </summary>
+            <typeparam name="T"></typeparam>
+            <param name="metrics"></param>
+            <param name="exception"></param>
+        </member>
+        <member name="M:PlayTimeX.MassTransit.AppMetrics.MassTransitMetricsRegistry.MeasureSend``1(App.Metrics.IMetrics,System.Exception)">
+            <summary>
+            
+            </summary>
+            <typeparam name="T"></typeparam>
+            <param name="metrics"></param>
+            <param name="exception"></param>
+        </member>
+        <member name="M:PlayTimeX.MassTransit.AppMetrics.MassTransitMetricsRegistry.TrackReceiveInProgress(App.Metrics.IMetrics,MassTransit.ReceiveContext)">
+            <summary>
+            
+            </summary>
+            <param name="metrics"></param>
+            <param name="context"></param>
+            <returns></returns>
+        </member>
+        <member name="M:PlayTimeX.MassTransit.AppMetrics.MassTransitMetricsRegistry.TrackConsumerInProgress``2(App.Metrics.IMetrics)">
+            <summary>
+            
+            </summary>
+            <typeparam name="TConsumer"></typeparam>
+            <typeparam name="TMessage"></typeparam>
+            <param name="metrics"></param>
+            <returns></returns>
+        </member>
+        <member name="M:PlayTimeX.MassTransit.AppMetrics.MassTransitMetricsRegistry.TrackSagaInProgress``2(App.Metrics.IMetrics)">
+            <summary>
+            
+            </summary>
+            <typeparam name="TSaga"></typeparam>
+            <typeparam name="TMessage"></typeparam>
+            <param name="metrics"></param>
+            <returns></returns>
+        </member>
+        <member name="M:PlayTimeX.MassTransit.AppMetrics.MassTransitMetricsRegistry.TrackExecuteActivityInProgress``2(App.Metrics.IMetrics,MassTransit.Courier.ExecuteActivityContext{``0,``1})">
+            <summary>
+            
+            </summary>
+            <typeparam name="TActivity"></typeparam>
+            <typeparam name="TArguments"></typeparam>
+            <param name="metrics"></param>
+            <param name="context"></param>
+            <returns></returns>
+        </member>
+        <member name="M:PlayTimeX.MassTransit.AppMetrics.MassTransitMetricsRegistry.TrackCompensateActivityInProgress``2(App.Metrics.IMetrics,MassTransit.Courier.CompensateActivityContext{``0,``1})">
+            <summary>
+            
+            </summary>
+            <typeparam name="TActivity"></typeparam>
+            <typeparam name="TLog"></typeparam>
+            <param name="metrics"></param>
+            <param name="context"></param>
+            <returns></returns>
+        </member>
+        <member name="M:PlayTimeX.MassTransit.AppMetrics.MassTransitMetricsRegistry.TrackHandlerInProgress``1(App.Metrics.IMetrics)">
+            <summary>
+            
+            </summary>
+            <typeparam name="TMessage"></typeparam>
+            <param name="metrics"></param>
+            <returns></returns>
+        </member>
+        <member name="T:PlayTimeX.MassTransit.AppMetrics.MassTransitMetricsRegistry.Meters">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:PlayTimeX.MassTransit.AppMetrics.MassTransitMetricsRegistry.Histograms">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:PlayTimeX.MassTransit.AppMetrics.MassTransitMetricsRegistry.Counters">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:PlayTimeX.MassTransit.AppMetrics.MassTransitMetricsRegistry.Timers">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:PlayTimeX.MassTransit.AppMetrics.MassTransitMetricsTagProvider">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:PlayTimeX.MassTransit.AppMetrics.MassTransitMetricsTagProvider.#ctor(System.String,PlayTimeX.MassTransit.AppMetrics.MassTransitMetricsOptions)">
+            <summary>
+            
+            </summary>
+            <param name="serviceName"></param>
+            <param name="options"></param>
+        </member>
+        <member name="M:PlayTimeX.MassTransit.AppMetrics.MassTransitMetricsTagProvider.ServiceTags">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:PlayTimeX.MassTransit.AppMetrics.MassTransitMetricsTagProvider.EndpointTags(System.String)">
+            <summary>
+            
+            </summary>
+            <param name="endpointLabel"></param>
+            <returns></returns>
+        </member>
+        <member name="M:PlayTimeX.MassTransit.AppMetrics.MassTransitMetricsTagProvider.EndpointFaultTags(System.String,System.String)">
+            <summary>
+            
+            </summary>
+            <param name="endpointLabel"></param>
+            <param name="exceptionType"></param>
+            <returns></returns>
+        </member>
+        <member name="M:PlayTimeX.MassTransit.AppMetrics.MassTransitMetricsTagProvider.ConsumerTags(System.String,System.String)">
+            <summary>
+            
+            </summary>
+            <param name="messageType"></param>
+            <param name="cleanConsumerType"></param>
+            <returns></returns>
+        </member>
+        <member name="M:PlayTimeX.MassTransit.AppMetrics.MassTransitMetricsTagProvider.ConsumerFaultTags(System.String,System.String,System.String)">
+            <summary>
+            
+            </summary>
+            <param name="messageType"></param>
+            <param name="cleanConsumerType"></param>
+            <param name="exceptionType"></param>
+            <returns></returns>
+        </member>
+        <member name="M:PlayTimeX.MassTransit.AppMetrics.MassTransitMetricsTagProvider.ExecuteTags(System.String,System.String)">
+            <summary>
+            
+            </summary>
+            <param name="activityName"></param>
+            <param name="argumentType"></param>
+            <returns></returns>
+        </member>
+        <member name="M:PlayTimeX.MassTransit.AppMetrics.MassTransitMetricsTagProvider.ExecuteFaultTags(System.String,System.String,System.String)">
+            <summary>
+            
+            </summary>
+            <param name="activityName"></param>
+            <param name="argumentType"></param>
+            <param name="exceptionType"></param>
+            <returns></returns>
+        </member>
+        <member name="M:PlayTimeX.MassTransit.AppMetrics.MassTransitMetricsTagProvider.CompensateTags(System.String,System.String)">
+            <summary>
+            
+            </summary>
+            <param name="activityName"></param>
+            <param name="logType"></param>
+            <returns></returns>
+        </member>
+        <member name="M:PlayTimeX.MassTransit.AppMetrics.MassTransitMetricsTagProvider.CompensateFailureTags(System.String,System.String,System.String)">
+            <summary>
+            
+            </summary>
+            <param name="activityName"></param>
+            <param name="logType"></param>
+            <param name="exceptionType"></param>
+            <returns></returns>
+        </member>
+        <member name="M:PlayTimeX.MassTransit.AppMetrics.MassTransitMetricsTagProvider.MessageTags(System.String)">
+            <summary>
+            
+            </summary>
+            <param name="messageType"></param>
+            <returns></returns>
+        </member>
+        <member name="M:PlayTimeX.MassTransit.AppMetrics.MassTransitMetricsTagProvider.MessageFaultTags(System.String,System.String)">
+            <summary>
+            
+            </summary>
+            <param name="messageType"></param>
+            <param name="exceptionType"></param>
+            <returns></returns>
+        </member>
+        <member name="T:PlayTimeX.MassTransit.AppMetrics.Observers.AppMetricsActivityConfigurationObserver">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:PlayTimeX.MassTransit.AppMetrics.Observers.AppMetricsActivityConfigurationObserver.#ctor(App.Metrics.IMetrics)">
+            <summary>
+            
+            </summary>
+            <param name="metrics"></param>
+        </member>
+        <member name="M:PlayTimeX.MassTransit.AppMetrics.Observers.AppMetricsActivityConfigurationObserver.ActivityConfigured``2(MassTransit.IExecuteActivityConfigurator{``0,``1},System.Uri)">
+            <summary>
+            
+            </summary>
+            <typeparam name="TActivity"></typeparam>
+            <typeparam name="TArguments"></typeparam>
+            <param name="configurator"></param>
+            <param name="compensateAddress"></param>
+        </member>
+        <member name="M:PlayTimeX.MassTransit.AppMetrics.Observers.AppMetricsActivityConfigurationObserver.ExecuteActivityConfigured``2(MassTransit.IExecuteActivityConfigurator{``0,``1})">
+            <summary>
+            
+            </summary>
+            <typeparam name="TActivity"></typeparam>
+            <typeparam name="TArguments"></typeparam>
+            <param name="configurator"></param>
+        </member>
+        <member name="M:PlayTimeX.MassTransit.AppMetrics.Observers.AppMetricsActivityConfigurationObserver.CompensateActivityConfigured``2(MassTransit.ICompensateActivityConfigurator{``0,``1})">
+            <summary>
+            
+            </summary>
+            <typeparam name="TActivity"></typeparam>
+            <typeparam name="TLog"></typeparam>
+            <param name="configurator"></param>
+        </member>
+        <member name="T:PlayTimeX.MassTransit.AppMetrics.Observers.AppMetricsActivityObserver">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:PlayTimeX.MassTransit.AppMetrics.Observers.AppMetricsActivityObserver.#ctor(App.Metrics.IMetrics)">
+            <summary>
+            
+            </summary>
+            <param name="metrics"></param>
+        </member>
+        <member name="M:PlayTimeX.MassTransit.AppMetrics.Observers.AppMetricsActivityObserver.PreExecute``2(MassTransit.Courier.ExecuteActivityContext{``0,``1})">
+            <summary>
+            
+            </summary>
+            <typeparam name="TActivity"></typeparam>
+            <typeparam name="TArguments"></typeparam>
+            <param name="context"></param>
+            <returns></returns>
+        </member>
+        <member name="M:PlayTimeX.MassTransit.AppMetrics.Observers.AppMetricsActivityObserver.PostExecute``2(MassTransit.Courier.ExecuteActivityContext{``0,``1})">
+            <summary>
+            
+            </summary>
+            <typeparam name="TActivity"></typeparam>
+            <typeparam name="TArguments"></typeparam>
+            <param name="context"></param>
+            <returns></returns>
+        </member>
+        <member name="M:PlayTimeX.MassTransit.AppMetrics.Observers.AppMetricsActivityObserver.ExecuteFault``2(MassTransit.Courier.ExecuteActivityContext{``0,``1},System.Exception)">
+            <summary>
+            
+            </summary>
+            <typeparam name="TActivity"></typeparam>
+            <typeparam name="TArguments"></typeparam>
+            <param name="context"></param>
+            <param name="exception"></param>
+            <returns></returns>
+        </member>
+        <member name="M:PlayTimeX.MassTransit.AppMetrics.Observers.AppMetricsActivityObserver.PreCompensate``2(MassTransit.Courier.CompensateActivityContext{``0,``1})">
+            <summary>
+            
+            </summary>
+            <typeparam name="TActivity"></typeparam>
+            <typeparam name="TLog"></typeparam>
+            <param name="context"></param>
+            <returns></returns>
+        </member>
+        <member name="M:PlayTimeX.MassTransit.AppMetrics.Observers.AppMetricsActivityObserver.PostCompensate``2(MassTransit.Courier.CompensateActivityContext{``0,``1})">
+            <summary>
+            
+            </summary>
+            <typeparam name="TActivity"></typeparam>
+            <typeparam name="TLog"></typeparam>
+            <param name="context"></param>
+            <returns></returns>
+        </member>
+        <member name="M:PlayTimeX.MassTransit.AppMetrics.Observers.AppMetricsActivityObserver.CompensateFail``2(MassTransit.Courier.CompensateActivityContext{``0,``1},System.Exception)">
+            <summary>
+            
+            </summary>
+            <typeparam name="TActivity"></typeparam>
+            <typeparam name="TLog"></typeparam>
+            <param name="context"></param>
+            <param name="exception"></param>
+            <returns></returns>
+        </member>
+        <member name="T:PlayTimeX.MassTransit.AppMetrics.Observers.AppMetricsBusObserver">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:PlayTimeX.MassTransit.AppMetrics.Observers.AppMetricsBusObserver.#ctor(App.Metrics.IMetrics)">
+            <summary>
+            
+            </summary>
+            <param name="metrics"></param>
+        </member>
+        <member name="M:PlayTimeX.MassTransit.AppMetrics.Observers.AppMetricsBusObserver.PostCreate(MassTransit.IBus)">
+            <summary>
+            
+            </summary>
+            <param name="bus"></param>
+            <returns></returns>
+        </member>
+        <member name="M:PlayTimeX.MassTransit.AppMetrics.Observers.AppMetricsBusObserver.CreateFaulted(System.Exception)">
+            <summary>
+            
+            </summary>
+            <param name="exception"></param>
+            <returns></returns>
+        </member>
+        <member name="M:PlayTimeX.MassTransit.AppMetrics.Observers.AppMetricsBusObserver.PreStart(MassTransit.IBus)">
+            <summary>
+            
+            </summary>
+            <param name="bus"></param>
+            <returns></returns>
+        </member>
+        <member name="M:PlayTimeX.MassTransit.AppMetrics.Observers.AppMetricsBusObserver.PostStart(MassTransit.IBus,System.Threading.Tasks.Task{MassTransit.BusReady})">
+            <summary>
+            
+            </summary>
+            <param name="bus"></param>
+            <param name="busReady"></param>
+            <returns></returns>
+        </member>
+        <member name="M:PlayTimeX.MassTransit.AppMetrics.Observers.AppMetricsBusObserver.StartFaulted(MassTransit.IBus,System.Exception)">
+            <summary>
+            
+            </summary>
+            <param name="bus"></param>
+            <param name="exception"></param>
+            <returns></returns>
+        </member>
+        <member name="M:PlayTimeX.MassTransit.AppMetrics.Observers.AppMetricsBusObserver.PreStop(MassTransit.IBus)">
+            <summary>
+            
+            </summary>
+            <param name="bus"></param>
+            <returns></returns>
+        </member>
+        <member name="M:PlayTimeX.MassTransit.AppMetrics.Observers.AppMetricsBusObserver.PostStop(MassTransit.IBus)">
+            <summary>
+            
+            </summary>
+            <param name="bus"></param>
+            <returns></returns>
+        </member>
+        <member name="M:PlayTimeX.MassTransit.AppMetrics.Observers.AppMetricsBusObserver.StopFaulted(MassTransit.IBus,System.Exception)">
+            <summary>
+            
+            </summary>
+            <param name="bus"></param>
+            <param name="exception"></param>
+            <returns></returns>
+        </member>
+        <member name="T:PlayTimeX.MassTransit.AppMetrics.Observers.AppMetricsConsumerConfigurationObserver">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:PlayTimeX.MassTransit.AppMetrics.Observers.AppMetricsConsumerConfigurationObserver.#ctor(App.Metrics.IMetrics)">
+            <summary>
+            
+            </summary>
+            <param name="metrics"></param>
+        </member>
+        <member name="M:PlayTimeX.MassTransit.AppMetrics.Observers.AppMetricsConsumerConfigurationObserver.ConsumerConfigured``1(MassTransit.ConsumeConfigurators.IConsumerConfigurator{``0})">
+            <summary>
+            
+            </summary>
+            <typeparam name="TConsumer"></typeparam>
+            <param name="configurator"></param>
+        </member>
+        <member name="M:PlayTimeX.MassTransit.AppMetrics.Observers.AppMetricsConsumerConfigurationObserver.ConsumerMessageConfigured``2(MassTransit.ConsumeConfigurators.IConsumerMessageConfigurator{``0,``1})">
+            <summary>
+            
+            </summary>
+            <typeparam name="TConsumer"></typeparam>
+            <typeparam name="TMessage"></typeparam>
+            <param name="configurator"></param>
+        </member>
+        <member name="M:PlayTimeX.MassTransit.AppMetrics.Observers.AppMetricsConsumerConfigurationObserver.BatchConsumerConfigured``2(MassTransit.ConsumeConfigurators.IConsumerMessageConfigurator{``0,MassTransit.Batch{``1}})">
+            <summary>
+            
+            </summary>
+            <typeparam name="TConsumer"></typeparam>
+            <typeparam name="TMessage"></typeparam>
+            <param name="configurator"></param>
+        </member>
+        <member name="T:PlayTimeX.MassTransit.AppMetrics.Observers.AppMetricsHandlerConfigurationObserver">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:PlayTimeX.MassTransit.AppMetrics.Observers.AppMetricsHandlerConfigurationObserver.#ctor(App.Metrics.IMetrics)">
+            <summary>
+            
+            </summary>
+            <param name="metrics"></param>
+        </member>
+        <member name="T:PlayTimeX.MassTransit.AppMetrics.Observers.AppMetricsPublishObserver">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:PlayTimeX.MassTransit.AppMetrics.Observers.AppMetricsPublishObserver.#ctor(App.Metrics.IMetrics)">
+            <summary>
+            
+            </summary>
+            <param name="metrics"></param>
+        </member>
+        <member name="M:PlayTimeX.MassTransit.AppMetrics.Observers.AppMetricsPublishObserver.PrePublish``1(MassTransit.PublishContext{``0})">
+            <summary>
+            
+            </summary>
+            <typeparam name="T"></typeparam>
+            <param name="context"></param>
+            <returns></returns>
+        </member>
+        <member name="M:PlayTimeX.MassTransit.AppMetrics.Observers.AppMetricsPublishObserver.PostPublish``1(MassTransit.PublishContext{``0})">
+            <summary>
+            
+            </summary>
+            <typeparam name="T"></typeparam>
+            <param name="context"></param>
+            <returns></returns>
+        </member>
+        <member name="M:PlayTimeX.MassTransit.AppMetrics.Observers.AppMetricsPublishObserver.PublishFault``1(MassTransit.PublishContext{``0},System.Exception)">
+            <summary>
+            
+            </summary>
+            <typeparam name="T"></typeparam>
+            <param name="context"></param>
+            <param name="exception"></param>
+            <returns></returns>
+        </member>
+        <member name="T:PlayTimeX.MassTransit.AppMetrics.Observers.AppMetricsReceiveEndpointConfiguratorObserver">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:PlayTimeX.MassTransit.AppMetrics.Observers.AppMetricsReceiveEndpointConfiguratorObserver.#ctor(App.Metrics.IMetrics)">
+            <summary>
+            
+            </summary>
+            <param name="metrics"></param>
+        </member>
+        <member name="M:PlayTimeX.MassTransit.AppMetrics.Observers.AppMetricsReceiveEndpointConfiguratorObserver.EndpointConfigured``1(``0)">
+            <summary>
+            
+            </summary>
+            <typeparam name="T"></typeparam>
+            <param name="configurator"></param>
+        </member>
+        <member name="T:PlayTimeX.MassTransit.AppMetrics.Observers.AppMetricsReceiveEndpointObserver">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:PlayTimeX.MassTransit.AppMetrics.Observers.AppMetricsReceiveEndpointObserver.#ctor(App.Metrics.IMetrics)">
+            <summary>
+            
+            </summary>
+            <param name="metrics"></param>
+        </member>
+        <member name="M:PlayTimeX.MassTransit.AppMetrics.Observers.AppMetricsReceiveEndpointObserver.Ready(MassTransit.ReceiveEndpointReady)">
+            <summary>
+            
+            </summary>
+            <param name="ready"></param>
+            <returns></returns>
+        </member>
+        <member name="M:PlayTimeX.MassTransit.AppMetrics.Observers.AppMetricsReceiveEndpointObserver.Stopping(MassTransit.ReceiveEndpointStopping)">
+            <summary>
+            
+            </summary>
+            <param name="stopping"></param>
+            <returns></returns>
+        </member>
+        <member name="M:PlayTimeX.MassTransit.AppMetrics.Observers.AppMetricsReceiveEndpointObserver.Completed(MassTransit.ReceiveEndpointCompleted)">
+            <summary>
+            
+            </summary>
+            <param name="completed"></param>
+            <returns></returns>
+        </member>
+        <member name="M:PlayTimeX.MassTransit.AppMetrics.Observers.AppMetricsReceiveEndpointObserver.Faulted(MassTransit.ReceiveEndpointFaulted)">
+            <summary>
+            
+            </summary>
+            <param name="faulted"></param>
+            <returns></returns>
+        </member>
+        <member name="T:PlayTimeX.MassTransit.AppMetrics.Observers.AppMetricsReceiveObserver">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:PlayTimeX.MassTransit.AppMetrics.Observers.AppMetricsReceiveObserver.#ctor(App.Metrics.IMetrics)">
+            <summary>
+            
+            </summary>
+            <param name="metrics"></param>
+        </member>
+        <member name="M:PlayTimeX.MassTransit.AppMetrics.Observers.AppMetricsReceiveObserver.PreReceive(MassTransit.ReceiveContext)">
+            <summary>
+            
+            </summary>
+            <param name="context"></param>
+            <returns></returns>
+        </member>
+        <member name="M:PlayTimeX.MassTransit.AppMetrics.Observers.AppMetricsReceiveObserver.PostReceive(MassTransit.ReceiveContext)">
+            <summary>
+            
+            </summary>
+            <param name="context"></param>
+            <returns></returns>
+        </member>
+        <member name="M:PlayTimeX.MassTransit.AppMetrics.Observers.AppMetricsReceiveObserver.PostConsume``1(MassTransit.ConsumeContext{``0},System.TimeSpan,System.String)">
+            <summary>
+            
+            </summary>
+            <typeparam name="T"></typeparam>
+            <param name="context"></param>
+            <param name="duration"></param>
+            <param name="consumerType"></param>
+            <returns></returns>
+        </member>
+        <member name="M:PlayTimeX.MassTransit.AppMetrics.Observers.AppMetricsReceiveObserver.ConsumeFault``1(MassTransit.ConsumeContext{``0},System.TimeSpan,System.String,System.Exception)">
+            <summary>
+            
+            </summary>
+            <typeparam name="T"></typeparam>
+            <param name="context"></param>
+            <param name="duration"></param>
+            <param name="consumerType"></param>
+            <param name="exception"></param>
+            <returns></returns>
+        </member>
+        <member name="M:PlayTimeX.MassTransit.AppMetrics.Observers.AppMetricsReceiveObserver.ReceiveFault(MassTransit.ReceiveContext,System.Exception)">
+            <summary>
+            
+            </summary>
+            <param name="context"></param>
+            <param name="exception"></param>
+            <returns></returns>
+        </member>
+        <member name="T:PlayTimeX.MassTransit.AppMetrics.Observers.AppMetricsSagaConfigurationObserver">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:PlayTimeX.MassTransit.AppMetrics.Observers.AppMetricsSagaConfigurationObserver.#ctor(App.Metrics.IMetrics)">
+            <summary>
+            
+            </summary>
+            <param name="metrics"></param>
+        </member>
+        <member name="M:PlayTimeX.MassTransit.AppMetrics.Observers.AppMetricsSagaConfigurationObserver.SagaConfigured``1(MassTransit.ISagaConfigurator{``0})">
+            <summary>
+            
+            </summary>
+            <typeparam name="T"></typeparam>
+            <param name="configurator"></param>
+        </member>
+        <member name="M:PlayTimeX.MassTransit.AppMetrics.Observers.AppMetricsSagaConfigurationObserver.StateMachineSagaConfigured``1(MassTransit.ISagaConfigurator{``0},Automatonymous.SagaStateMachine{``0})">
+            <summary>
+            
+            </summary>
+            <typeparam name="TInstance"></typeparam>
+            <param name="configurator"></param>
+            <param name="stateMachine"></param>
+        </member>
+        <member name="M:PlayTimeX.MassTransit.AppMetrics.Observers.AppMetricsSagaConfigurationObserver.SagaMessageConfigured``2(MassTransit.ISagaMessageConfigurator{``0,``1})">
+            <summary>
+            
+            </summary>
+            <typeparam name="T"></typeparam>
+            <typeparam name="TMessage"></typeparam>
+            <param name="configurator"></param>
+        </member>
+        <member name="T:PlayTimeX.MassTransit.AppMetrics.Observers.AppMetricsSendObserver">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:PlayTimeX.MassTransit.AppMetrics.Observers.AppMetricsSendObserver.#ctor(App.Metrics.IMetrics)">
+            <summary>
+            
+            </summary>
+            <param name="metrics"></param>
+        </member>
+        <member name="M:PlayTimeX.MassTransit.AppMetrics.Observers.AppMetricsSendObserver.PreSend``1(MassTransit.SendContext{``0})">
+            <summary>
+            
+            </summary>
+            <typeparam name="T"></typeparam>
+            <param name="context"></param>
+            <returns></returns>
+        </member>
+        <member name="M:PlayTimeX.MassTransit.AppMetrics.Observers.AppMetricsSendObserver.PostSend``1(MassTransit.SendContext{``0})">
+            <summary>
+            
+            </summary>
+            <typeparam name="T"></typeparam>
+            <param name="context"></param>
+            <returns></returns>
+        </member>
+        <member name="M:PlayTimeX.MassTransit.AppMetrics.Observers.AppMetricsSendObserver.SendFault``1(MassTransit.SendContext{``0},System.Exception)">
+            <summary>
+            
+            </summary>
+            <typeparam name="T"></typeparam>
+            <param name="context"></param>
+            <param name="exception"></param>
+            <returns></returns>
+        </member>
+        <member name="T:PlayTimeX.MassTransit.AppMetrics.Pipeline.AppMetricsCompensateActivityFilter`2">
+            <summary>
+            /
+            </summary>
+            <typeparam name="TActivity"></typeparam>
+            <typeparam name="TLog"></typeparam>
+        </member>
+        <member name="M:PlayTimeX.MassTransit.AppMetrics.Pipeline.AppMetricsCompensateActivityFilter`2.#ctor(App.Metrics.IMetrics)">
+            <summary>
+            
+            </summary>
+            <param name="metrics"></param>
+        </member>
+        <member name="M:PlayTimeX.MassTransit.AppMetrics.Pipeline.AppMetricsCompensateActivityFilter`2.Send(MassTransit.Courier.CompensateActivityContext{`0,`1},GreenPipes.IPipe{MassTransit.Courier.CompensateActivityContext{`0,`1}})">
+            <summary>
+            
+            </summary>
+            <param name="context"></param>
+            <param name="next"></param>
+            <returns></returns>
+        </member>
+        <member name="T:PlayTimeX.MassTransit.AppMetrics.Pipeline.AppMetricsConsumerFilter`2">
+            <summary>
+            
+            </summary>
+            <typeparam name="TConsumer"></typeparam>
+            <typeparam name="TMessage"></typeparam>
+        </member>
+        <member name="M:PlayTimeX.MassTransit.AppMetrics.Pipeline.AppMetricsConsumerFilter`2.#ctor(App.Metrics.IMetrics)">
+            <summary>
+            
+            </summary>
+            <param name="metrics"></param>
+        </member>
+        <member name="M:PlayTimeX.MassTransit.AppMetrics.Pipeline.AppMetricsConsumerFilter`2.Send(MassTransit.ConsumerConsumeContext{`0,`1},GreenPipes.IPipe{MassTransit.ConsumerConsumeContext{`0,`1}})">
+            <summary>
+            
+            </summary>
+            <param name="context"></param>
+            <param name="next"></param>
+            <returns></returns>
+        </member>
+        <member name="T:PlayTimeX.MassTransit.AppMetrics.Pipeline.AppMetricsExecuteActivityFilter`2">
+            <summary>
+            
+            </summary>
+            <typeparam name="TActivity"></typeparam>
+            <typeparam name="TArguments"></typeparam>
+        </member>
+        <member name="M:PlayTimeX.MassTransit.AppMetrics.Pipeline.AppMetricsExecuteActivityFilter`2.#ctor(App.Metrics.IMetrics)">
+            <summary>
+            
+            </summary>
+            <param name="metrics"></param>
+        </member>
+        <member name="M:PlayTimeX.MassTransit.AppMetrics.Pipeline.AppMetricsExecuteActivityFilter`2.Send(MassTransit.Courier.ExecuteActivityContext{`0,`1},GreenPipes.IPipe{MassTransit.Courier.ExecuteActivityContext{`0,`1}})">
+            <summary>
+            
+            </summary>
+            <param name="context"></param>
+            <param name="next"></param>
+            <returns></returns>
+        </member>
+        <member name="T:PlayTimeX.MassTransit.AppMetrics.Pipeline.AppMetricsHandlerFilter`1">
+            <summary>
+            
+            </summary>
+            <typeparam name="TMessage"></typeparam>
+        </member>
+        <member name="M:PlayTimeX.MassTransit.AppMetrics.Pipeline.AppMetricsHandlerFilter`1.#ctor(App.Metrics.IMetrics)">
+            <summary>
+            
+            </summary>
+            <param name="metrics"></param>
+        </member>
+        <member name="M:PlayTimeX.MassTransit.AppMetrics.Pipeline.AppMetricsHandlerFilter`1.Send(MassTransit.ConsumeContext{`0},GreenPipes.IPipe{MassTransit.ConsumeContext{`0}})">
+            <summary>
+            
+            </summary>
+            <param name="context"></param>
+            <param name="next"></param>
+            <returns></returns>
+        </member>
+        <member name="T:PlayTimeX.MassTransit.AppMetrics.Pipeline.AppMetricsProbeSite">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:PlayTimeX.MassTransit.AppMetrics.Pipeline.AppMetricsProbeSite.Probe(GreenPipes.ProbeContext)">
+            <summary>
+            
+            </summary>
+            <param name="context"></param>
+        </member>
+        <member name="T:PlayTimeX.MassTransit.AppMetrics.Pipeline.AppMetricsReceiveFilter">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:PlayTimeX.MassTransit.AppMetrics.Pipeline.AppMetricsReceiveFilter.#ctor(App.Metrics.IMetrics)">
+            <summary>
+            
+            </summary>
+            <param name="metrics"></param>
+        </member>
+        <member name="M:PlayTimeX.MassTransit.AppMetrics.Pipeline.AppMetricsReceiveFilter.Send(MassTransit.ReceiveContext,GreenPipes.IPipe{MassTransit.ReceiveContext})">
+            <summary>
+            
+            </summary>
+            <param name="context"></param>
+            <param name="next"></param>
+            <returns></returns>
+        </member>
+        <member name="T:PlayTimeX.MassTransit.AppMetrics.Pipeline.AppMetricsSagaFilter`2">
+            <summary>
+            
+            </summary>
+            <typeparam name="TSaga"></typeparam>
+            <typeparam name="TMessage"></typeparam>
+        </member>
+        <member name="M:PlayTimeX.MassTransit.AppMetrics.Pipeline.AppMetricsSagaFilter`2.#ctor(App.Metrics.IMetrics)">
+            <summary>
+            
+            </summary>
+            <param name="metrics"></param>
+        </member>
+        <member name="M:PlayTimeX.MassTransit.AppMetrics.Pipeline.AppMetricsSagaFilter`2.Send(MassTransit.SagaConsumeContext{`0,`1},GreenPipes.IPipe{MassTransit.SagaConsumeContext{`0,`1}})">
+            <summary>
+            
+            </summary>
+            <param name="context"></param>
+            <param name="next"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
